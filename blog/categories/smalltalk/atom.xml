@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Wow Are You!]]></title>
-  <link href="http://wowareyou.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Smalltalk | Wow Are You!]]></title>
+  <link href="http://wowareyou.com/blog/categories/smalltalk/atom.xml" rel="self"/>
   <link href="http://wowareyou.com/"/>
   <updated>2014-04-02T21:21:25-07:00</updated>
   <id>http://wowareyou.com/</id>
@@ -18,7 +18,7 @@
     <link href="http://wowareyou.com/blog/smalljava/"/>
     <updated>1997-05-07T18:00:00-07:00</updated>
     <id>http://wowareyou.com/blog/smalljava</id>
-    <content type="html"><![CDATA[<p>There is also a PDF version <a href="http://wowareyou.com/pdfs/SmallJava1d_2.pdf">here</a> which might be easier to read
+    <content type="html"><![CDATA[<p>There is also a PDF version <a href="/pdfs/SmallJava1d_2.pdf">here</a> which might be easier to read
 because it has a bit more formatting.</p>
 
 <div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.5pt;
@@ -47,7 +47,7 @@ style="mso-spacerun: yes">&nbsp; </span></p>
 
 
 
-<p class=MsoNormal>The reason to use this approach is it allows two languages&#8217;
+<p class=MsoNormal>The reason to use this approach is it allows two languages'
 features to be compared without the baggage of all the other differences in the
 languages.<span style="mso-spacerun: yes">&nbsp; </span>Frequently language
 discussions are difficult because there are so many differences in syntax and
@@ -80,10 +80,10 @@ yes">&nbsp; </span></p>
 in both Java and Smalltalk.<span style="mso-spacerun: yes">&nbsp;
 </span>Basically the syntax and major concepts of both languages should be
 familiar to you.<span style="mso-spacerun: yes">&nbsp; </span>If you get lost
-during the postings I suggest you look at FAQ&#8217;s and book related postings for
+during the postings I suggest you look at FAQ's and book related postings for
 &quot;comp.lang.smalltalk&quot;, &quot;comp.lang.java.programmer&quot; and
 &quot;comp.object&quot; [using www.dejanews.com might be the easiest
-approach].<span style="mso-spacerun: yes">&nbsp; </span>Although I don&#8217;t ever
+approach].<span style="mso-spacerun: yes">&nbsp; </span>Although I don't ever
 consider a single book to be enough for any language, my current favorite two
 books may be:</p>
 
@@ -215,7 +215,7 @@ yes">&nbsp; </span></p>
 
 
 
-<p class=MsoNormal>This gives us a dialect of Smalltalk like &#8220;Little Smalltalk&#8221;
+<p class=MsoNormal>This gives us a dialect of Smalltalk like "Little Smalltalk"
 [Budd 87].<span style="mso-spacerun: yes">&nbsp; </span>We have dropped (or not
 mentioned) a lot of capabilities of professional Smalltalk dialects, but we
 still have a valid dialect of the Smalltalk language.</p>
@@ -232,7 +232,7 @@ will:</p>
 
 <p class=MsoList2>(J1) Drop access control.<span style="mso-spacerun:
 yes">&nbsp; </span>All methods will be public and all instance variables will
-be protected which closely matches Smalltalk&#8217;s standard access controls.</p>
+be protected which closely matches Smalltalk's standard access controls.</p>
 
 
 
@@ -252,7 +252,7 @@ expressions work with the Wrapper versions of the primitive data types.</p>
 
 <p class=MsoList2>(J4) Make allowances and simplifications with certain
 packages and operators.<span style="mso-spacerun: yes">&nbsp; </span>For
-example the &#8220;Math&#8221; functions will be made available without needing the &#8220;Math&#8221;
+example the "Math" functions will be made available without needing the "Math"
 prefix.</p>
 
 
@@ -260,7 +260,7 @@ prefix.</p>
 
 <p class=MsoList2>(J5) Drop the use of static typing.<span style="mso-spacerun:
 yes">&nbsp; </span>All variables, parameters, and return types will be typed as
-&#8220;Object&#8221; and messages can be successfully sent to an object that has a method
+"Object" and messages can be successfully sent to an object that has a method
 with the right signature.<span style="mso-spacerun: yes">&nbsp; </span>Since
 static typing is removed, interfaces are removed also and we simply have
 classes extending other classes.</p>
@@ -278,7 +278,7 @@ below.</p>
 
 
 <p class=MsoNormal>The change J3 is also sizable but I believe it is an
-&#8220;unquestionable&#8221; improvement so less interesting although this will also be
+"unquestionable" improvement so less interesting although this will also be
 discussed in later sections.</p>
 
 
@@ -289,7 +289,7 @@ discussed in later sections.</p>
 
 
 
-<p class=MsoNormal>Stated again, SmallJava&#8217;s semantics are the intersection
+<p class=MsoNormal>Stated again, SmallJava's semantics are the intersection
 Smalltalk and Java with each simplified as specified.<span style="mso-spacerun:
 yes">&nbsp; </span>A more formal description might be useful but is not in the
 scope of this document.<span style="mso-spacerun: yes">&nbsp; </span>It would
@@ -297,7 +297,7 @@ also have to be many formal descriptions because SmallJava will be constantly
 changing as we add new properties to it.<span style="mso-spacerun: yes">&nbsp;
 </span>Beside the above informal description, examples of SmallJava will be
 provided as the document progresses.<span style="mso-spacerun: yes">&nbsp;
-</span>Next we have to specify SmallJava&#8217;s syntax.</p>
+</span>Next we have to specify SmallJava's syntax.</p>
 
 
 
@@ -311,10 +311,10 @@ provided as the document progresses.<span style="mso-spacerun: yes">&nbsp;
 easier discussion of adding in Java properties (e.g. static typing and
 interfaces) since I can use Java syntax for those properties.<span
 style="mso-spacerun: yes">&nbsp; </span>It is also true that many programmers
-are more familiar with &#8216;C++&#8217; like syntax than with Smalltalk syntax.<span
+are more familiar with 'C++' like syntax than with Smalltalk syntax.<span
 style="mso-spacerun: yes">&nbsp; </span>Adding in Smalltalk properties to
-SmallJava generally does not require extra syntax (blocks &#8220;[ | ]&#8221; being the notable
-exception) but instead either requires objects to become &#8220;smarter&#8221; (control
+SmallJava generally does not require extra syntax (blocks "[ | ]" being the notable
+exception) but instead either requires objects to become "smarter" (control
 messages for Booleans and Collections) or requires developing new types of
 objects (Class objects).<span style="mso-spacerun: yes">&nbsp; </span></p>
 
@@ -340,9 +340,9 @@ as noticeable.</p>
 either a simple Java without static typing or as a simple Smalltalk with Java
 syntax.<span style="mso-spacerun: yes">&nbsp; </span>I will show each of these
 views in different ways.<span style="mso-spacerun: yes">&nbsp; </span>First I
-will show the similarity to Java by applying the &#8220;J&#8221; transformations to a Java
+will show the similarity to Java by applying the "J" transformations to a Java
 program and turn it into SmallJava.<span style="mso-spacerun: yes">&nbsp;
-</span>Second I will translate the example&#8217;s syntax between SmallJava and
+</span>Second I will translate the example's syntax between SmallJava and
 Smalltalk.<span style="mso-spacerun: yes">&nbsp; </span>This will result in a
 total of three versions of the same example code in each of Smalltalk, Java,
 and SmallJava.<span style="mso-spacerun: yes">&nbsp; </span></p>
@@ -454,7 +454,7 @@ yes">&nbsp;&nbsp;&nbsp; </span>}</p>
 
 
 <p class=MsoNormal>Now I will start applying the SmallJava changes.<span
-style="mso-spacerun: yes">&nbsp; </span>J2 doesn&#8217;t apply because there are no
+style="mso-spacerun: yes">&nbsp; </span>J2 doesn't apply because there are no
 static methods.<span style="mso-spacerun: yes">&nbsp; </span>After applying J1,
 J3, and J4 to the example we get:</p>
 
@@ -702,14 +702,14 @@ yes">&nbsp;&nbsp;&nbsp; </span>}</p>
 <p class=MsoNormal>Well, that is a whole lot of casting, so it is fortunate we
 are dropping it.<span style="mso-spacerun: yes">&nbsp; </span>We will allow a
 message to be sent to any Object and if it the actual object does not implement
-that method we will throw a &#8220;DoesNotUnderstandException&#8221; (this behavior will be
+that method we will throw a "DoesNotUnderstandException" (this behavior will be
 discussed in depth in the next section).</p>
 
 
 
 
 <p class=MsoNormal>Now we can finish the J5 transformation and drop all the
-superfluous &#8220;Object&#8221;s.<span style="mso-spacerun: yes">&nbsp; </span>This gives
+superfluous "Object"s.<span style="mso-spacerun: yes">&nbsp; </span>This gives
 us:</p>
 
 
@@ -829,7 +829,7 @@ control).</p>
 
 <p class=MsoNormal>Next, to show how similar SmallJava is to Smalltalk, the
 following is the SmallJava program converted to Smalltalk-like (see [Budd 87])
-syntax (the bar &#8220;|&#8221; separates method):</p>
+syntax (the bar "|" separates method):</p>
 
 
 
@@ -958,16 +958,16 @@ types are there or not.</p>
 
 
 <p class=MsoNormal>SmallJava is a vehicle to compare and contrast Smalltalk and
-Java.<span style="mso-spacerun: yes">&nbsp; </span>SmallJava&#8217;s existence is the
+Java.<span style="mso-spacerun: yes">&nbsp; </span>SmallJava's existence is the
 first comparison: these languages are very similar which makes SmallJava
 possible.<span style="mso-spacerun: yes">&nbsp; </span>In the next sections I
 will start the contrasting by adding properties of Java into SmallJava.<span
-style="mso-spacerun: yes">&nbsp; </span>I will begin by getting &#8220;pessimistic&#8221;.</p>
+style="mso-spacerun: yes">&nbsp; </span>I will begin by getting "pessimistic".</p>
 
 
 
 
-<p class=MsoNormal>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p>
+<p class=MsoNormal>---------------------------------------------------------------------</p>
 
 
 
@@ -988,29 +988,29 @@ slightly longer discussion of this.</p>
 
 
 
-<h2><a name="_Toc387781528">Becoming Pessimistic: Changing when an object&#8217;s
+<h2><a name="_Toc387781528">Becoming Pessimistic: Changing when an object's
 type is verified</a> </h2>
 
 
 
 
-<p class=MsoNormal>SmallJava&#8217;s most significant difference from Java is that a
+<p class=MsoNormal>SmallJava's most significant difference from Java is that a
 message can be sent to an object that is not known to understand that
 message.<span style="mso-spacerun: yes">&nbsp; </span>If the object has
 implemented a method matching the message signature then everything executes as
 expected.<span style="mso-spacerun: yes">&nbsp; </span>If the object has no
-matching method then SmallJava throws a &#8220;DoesNotUnderstandException&#8221;.<span
+matching method then SmallJava throws a "DoesNotUnderstandException".<span
 style="mso-spacerun: yes">&nbsp; </span></p>
 
 
 
 
-<p class=MsoNormal>This behavior I call &#8221;<b style='mso-bidi-font-weight:normal'><i
-style='mso-bidi-font-style:normal'>optimistic</i></b>&#8221; messaging: you assume an
+<p class=MsoNormal>This behavior I call "<b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'>optimistic</i></b>" messaging: you assume an
 object can understand a message and only handle the special cases when the
 object does not.<span style="mso-spacerun: yes">&nbsp; </span>This is as
-opposed to &#8221;<b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
-normal'>pessimistic</i></b>&#8221; messaging where you make sure an object
+opposed to "<b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'>pessimistic</i></b>" messaging where you make sure an object
 understands a message before sending it to the object [1].<span
 style="mso-spacerun: yes">&nbsp; </span>So let us compare these two approaches.</p>
 
@@ -1058,7 +1058,7 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 
 <p class=MsoNormal>If we want to make sure messages like #x and #y are
-understood by &#8216;point&#8217; then for an optimistic approach we would have to do
+understood by 'point' then for an optimistic approach we would have to do
 something like this:</p>
 
 
@@ -1109,17 +1109,17 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 <p class=MsoNormal>The approach is identical to what you would do for handling
 any message that could throw an Exception; the only difference is that the
-message is never actually &#8220;received&#8221; by the object [3].</p>
+message is never actually "received" by the object [3].</p>
 
 
 
 
 <p class=MsoNormal>So what would pessimistic messaging look like for our
 example?<span style="mso-spacerun: yes">&nbsp; </span>Assume we add to
-SmallJava a &#8220;message-check&#8221; with syntax &#8220;(#message)&#8221; that allows us to check
+SmallJava a "message-check" with syntax "(#message)" that allows us to check
 whether an object understands a particular message.<span style="mso-spacerun:
 yes">&nbsp; </span>A message-check will do nothing if the object understands
-the message, but will throw a &#8220;DoesNotUnderstandException&#8221; if the object does
+the message, but will throw a "DoesNotUnderstandException" if the object does
 not.<span style="mso-spacerun: yes">&nbsp; </span>Then we can change our
 example to:</p>
 
@@ -1169,17 +1169,17 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 
 
-<p class=MsoNormal>Now we have guaranteed that &#8216;point&#8217; will successfully
-respond to #x before sending &#8216;x()&#8217; and will successfully respond #y before
-sending &#8216;y()&#8217;.<span style="mso-spacerun: yes">&nbsp; </span>We do not need the
+<p class=MsoNormal>Now we have guaranteed that 'point' will successfully
+respond to #x before sending 'x()' and will successfully respond #y before
+sending 'y()'.<span style="mso-spacerun: yes">&nbsp; </span>We do not need the
 optimistic messaging anymore.</p>
 
 
 
 
-<p class=MsoNormal>OK, that really didn&#8217;t provide us with ANY benefit.<span
+<p class=MsoNormal>OK, that really didn't provide us with ANY benefit.<span
 style="mso-spacerun: yes">&nbsp; </span>We still throw the same exception on
-failure and we throw that exception &#8220;just a fraction of a second&#8221; before we
+failure and we throw that exception "just a fraction of a second" before we
 would actually have sent the message.<span style="mso-spacerun: yes">&nbsp;
 </span>Why bother?<span style="mso-spacerun: yes">&nbsp; </span></p>
 
@@ -1193,8 +1193,8 @@ would actually have sent the message.<span style="mso-spacerun: yes">&nbsp;
 
 <p class=MsoNormal>The advantage of pessimistic messaging is that we have more
 control of when the test is done.<span style="mso-spacerun: yes">&nbsp;
-</span>For example, we can make sure nothing happens in the method if we didn&#8217;t
-actually get a &#8216;point&#8217; that responds to #x and #y:</p>
+</span>For example, we can make sure nothing happens in the method if we didn't
+actually get a 'point' that responds to #x and #y:</p>
 
 
 
@@ -1248,9 +1248,9 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 <p class=MsoNormal>This is now different behavior than what our optimistic
 version of the method produced.<span style="mso-spacerun: yes">&nbsp;
-</span>Our optimistic version would have sent &#8216;x()&#8217; to the point before
+</span>Our optimistic version would have sent 'x()' to the point before
 checking whether the point responded to #y.<span style="mso-spacerun:
-yes">&nbsp; </span>This version verifies [4] that &#8216;point&#8217; understands both #x
+yes">&nbsp; </span>This version verifies [4] that 'point' understands both #x
 and #y before sending any messages to it. </p>
 
 
@@ -1261,13 +1261,13 @@ and #y before sending any messages to it. </p>
 
 
 
-<p class=MsoNormal>SmallJava&#8217;s message-check verification happens to the object
+<p class=MsoNormal>SmallJava's message-check verification happens to the object
 in a variable at a given time.<span style="mso-spacerun: yes">&nbsp;
 </span>What happens when that variable changes or when the object moves to a
 new variable?<span style="mso-spacerun: yes">&nbsp; </span>We loose the
 verification and must verify again.<span style="mso-spacerun: yes">&nbsp;
 </span>The following is not completely pessimistic because of the second
-assignment to &#8216;pointCopy&#8217;:</p>
+assignment to 'pointCopy':</p>
 
 
 
@@ -1339,7 +1339,7 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 
 <p class=MsoNormal>In the example above we do not know whether the second
-&#8216;temp.x()&#8217; will be successful.<span style="mso-spacerun: yes">&nbsp; </span>We
+'temp.x()' will be successful.<span style="mso-spacerun: yes">&nbsp; </span>We
 have to do another check after assigning to the variable a second time:</p>
 
 
@@ -1464,7 +1464,7 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 
 
-<p class=MsoNormal>Unfortunately this doesn&#8217;t provide us with too much benefit
+<p class=MsoNormal>Unfortunately this doesn't provide us with too much benefit
 in most programs.<span style="mso-spacerun: yes">&nbsp; </span></p>
 
 
@@ -1552,15 +1552,15 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 
 
-<p class=MsoNormal>All assignments to &#8216;temp1&#8217; and &#8216;temp2&#8217; must now check
+<p class=MsoNormal>All assignments to 'temp1' and 'temp2' must now check
 whether the value of the assignment passes the message-check.<span
 style="mso-spacerun: yes">&nbsp; </span>This has no impact to our assignment to
-&#8216;temp1&#8217;, but it does allow us to assign to &#8216;temp2&#8217; without doing a further
+'temp1', but it does allow us to assign to 'temp2' without doing a further
 check.<span style="mso-spacerun: yes">&nbsp; </span>We have defined invariants
 for the variables [5] temp1 and temp2 that guarantee that the assignment from
 temp1 to temp2 will succeed.<span style="mso-spacerun: yes">&nbsp; </span>Since
 we can do this invariant check at compile-time we now have a simple
-&#8220;compile-time message-check&#8221; capability for SmallJava.</p>
+"compile-time message-check" capability for SmallJava.</p>
 
 
 
@@ -1572,23 +1572,23 @@ we can do this invariant check at compile-time we now have a simple
 
 <p class=MsoNormal>While adding all this support for pessimistic checking, we
 unfortunately have been cheating a bit.<span style="mso-spacerun: yes">&nbsp;
-</span>We left out the implementation of &#8220;Do the right thing&#8221;.<span
+</span>We left out the implementation of "Do the right thing".<span
 style="mso-spacerun: yes">&nbsp; </span>What is the right thing to do?<span
 style="mso-spacerun: yes">&nbsp; </span>Well, it is possible that a method can
-handle different types of &#8216;point&#8217;s and by finding out which type of point it
+handle different types of 'point's and by finding out which type of point it
 has it will behave differently.<span style="mso-spacerun: yes">&nbsp;
-</span>For example, we could use a default &#8216;z&#8217; value if we are given a 2d point
+</span>For example, we could use a default 'z' value if we are given a 2d point
 when we expect a 3d point.<span style="mso-spacerun: yes">&nbsp; </span>This is
 useful behavior but is not the most common behavior.</p>
 
 
 
 
-<p class=MsoNormal>The more common answer is that if a method doesn&#8217;t get what
-it expects it doesn&#8217;t know what to do.<span style="mso-spacerun: yes">&nbsp;
-</span>In this case we really can&#8217;t catch the error at all: we have to let it
+<p class=MsoNormal>The more common answer is that if a method doesn't get what
+it expects it doesn't know what to do.<span style="mso-spacerun: yes">&nbsp;
+</span>In this case we really can't catch the error at all: we have to let it
 go to the caller.<span style="mso-spacerun: yes">&nbsp; </span>That makes us an
-optimistic method from the caller&#8217;s point of view.<span style="mso-spacerun:
+optimistic method from the caller's point of view.<span style="mso-spacerun:
 yes">&nbsp; </span>For example:</p>
 
 
@@ -1616,9 +1616,9 @@ optimistic as far as the caller is concerned.</p>
 
 <p class=MsoNormal>How can we change this?<span style="mso-spacerun:
 yes">&nbsp; </span>We need more invariants within our #vectorFrom method so we
-don&#8217;t have any message-checks inside it.<span style="mso-spacerun: yes">&nbsp;
-</span>Our only message-check is to &#8216;point&#8217; itself, so if we can make the
-caller guarantee that &#8216;point&#8217; passes our message-check then we will guarantee
+don't have any message-checks inside it.<span style="mso-spacerun: yes">&nbsp;
+</span>Our only message-check is to 'point' itself, so if we can make the
+caller guarantee that 'point' passes our message-check then we will guarantee
 we can execute the method without further verification.<span
 style="mso-spacerun: yes">&nbsp; </span>Notationally this is simple enough:</p>
 
@@ -1650,9 +1650,9 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 
 <p class=MsoNormal>We are now forcing the caller to explicitly satisfy our
-requirement that &#8216;point&#8217; understands (#x,#y) before they can even call our
+requirement that 'point' understands (#x,#y) before they can even call our
 method instead of making the caller handle our DoesNotUnderstandException if
-&#8216;point&#8217; does not understand (#x,#y).<span style="mso-spacerun: yes">&nbsp;
+'point' does not understand (#x,#y).<span style="mso-spacerun: yes">&nbsp;
 </span>We just passed the verification requirement in a different and
 more-explicit manner than before [6].<span style="mso-spacerun:
 yes">&nbsp;&nbsp; </span></p>
@@ -1819,8 +1819,8 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 
 <p class=MsoNormal>We keep passing the buck for the pessimistic message-check
-verification, but some SmallJava expression must be a &#8220;buck consumer&#8221; and
-&#8220;verification producer&#8221;.<span style="mso-spacerun: yes">&nbsp; </span>We have
+verification, but some SmallJava expression must be a "buck consumer" and
+"verification producer".<span style="mso-spacerun: yes">&nbsp; </span>We have
 already seen one of them: the explicit message-check when used as an expression
 instead of an invariant.<span style="mso-spacerun: yes">&nbsp; </span>All the
 pessimistic-invariants allowed us to do one thing: remember an earlier message-check.<span
@@ -1871,7 +1871,7 @@ Line(point,point)).vector();</p>
 
 
 <p class=MsoNormal>then we can take advantage of the single message-check of
-&#8216;newPoint&#8217; to know all the other messages involved with creating a line and
+'newPoint' to know all the other messages involved with creating a line and
 sending #vector to the line will succeed.<span style="mso-spacerun: yes">&nbsp;
 </span>We now have a pretty good memory caused by explicitly stating what we
 want to remember (require) about message-understanding throughout the flow of
@@ -1882,7 +1882,7 @@ the program.</p>
 
 <p class=MsoNormal>Having one message-check is better than many, but what if I
 want to get rid of that message check too?<span style="mso-spacerun:
-yes">&nbsp;&nbsp; </span>Aren&#8217;t there any other &#8220;buck consumers&#8221;?<span
+yes">&nbsp;&nbsp; </span>Aren't there any other "buck consumers"?<span
 style="mso-spacerun: yes">&nbsp; </span>There is one other case where the result
 of an expression is guaranteed to respond to certain messages, object
 construction.<span style="mso-spacerun: yes">&nbsp; </span>If we build a new
@@ -1949,7 +1949,7 @@ Line(point,point)).vector();</p>
 
 
 <p class=MsoNormal>Now it is completely verifiable at compile time that all
-message sends will be successful (ignoring &#8216;x&#8217; and &#8216;y&#8217;).<span
+message sends will be successful (ignoring 'x' and 'y').<span
 style="mso-spacerun: yes">&nbsp; </span>We have turned off the need for
 Optimistic messaging for SmallJava for this particular example and now have a
 completely pessimistic and compile-time verified program.<span
@@ -1965,24 +1965,24 @@ style="mso-spacerun: yes">&nbsp; </span></p>
 
 <p class=MsoNormal>There were several aspects unmentioned in the above
 discussion of pessimistically verified message checking. What happens when we
-get a &#8216;null&#8217;?<span style="mso-spacerun: yes">&nbsp; </span>What are the return
+get a 'null'?<span style="mso-spacerun: yes">&nbsp; </span>What are the return
 values for the methods?<span style="mso-spacerun: yes">&nbsp; </span>How do we
 know that the method implementing a message (by name) is semantically equivalent
 to what we expect the method to do?<span style="mso-spacerun: yes">&nbsp;
-</span>These I will address in future sections on &#8216;null&#8217; explicitly and on
-&#8216;interface&#8217; instead of &#8216;message&#8217; based typing.<span style="mso-spacerun:
+</span>These I will address in future sections on 'null' explicitly and on
+'interface' instead of 'message' based typing.<span style="mso-spacerun:
 yes">&nbsp; </span>For the moment I will leave them unmentioned.</p>
 
 
 
 
-<h3><a name="_Toc387781538">Where&#8217;s the static typing?</a></h3>
+<h3><a name="_Toc387781538">Where's the static typing?</a></h3>
 
 
 
 
 <p class=MsoNormal>We have shown how we can make SmallJava pessimistic, but how
-do we make it completely compile-time verified or &#8220;statically typed&#8221;?<span
+do we make it completely compile-time verified or "statically typed"?<span
 style="mso-spacerun: yes">&nbsp; </span>If all our pessimistic message-checks
 can be moved to the point of object construction then all of them can be
 verified at compile-time.<span style="mso-spacerun: yes">&nbsp; </span>This would
@@ -2007,11 +2007,11 @@ yes">&nbsp;&nbsp;&nbsp; </span>class KeyedCollection {</p>
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
 yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>atKey_put(key, value)
-{&#8230;}</p>
+{...}</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>atKey(key) {&#8230;; return
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>atKey(key) {...; return
 value;}</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -2024,7 +2024,7 @@ yes">&nbsp;&nbsp;&nbsp; </span>}</p>
 
 
 <p class=MsoNormal>Then what can we be sure about the object returned from
-#atKey?<span style="mso-spacerun: yes">&nbsp; </span>We can&#8217;t be sure of
+#atKey?<span style="mso-spacerun: yes">&nbsp; </span>We can't be sure of
 anything.<span style="mso-spacerun: yes">&nbsp; </span>For example, in:</p>
 
 
@@ -2036,7 +2036,7 @@ margin-right:1.0in'>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>(#x,#y) inPoint = &#8230;;</p>
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>(#x,#y) inPoint = ...;</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -2053,10 +2053,10 @@ namesToPoints.atKey(&quot;test&quot;);</p>
 
 
 
-<p class=MsoNormal>We can&#8217;t be sure that &#8216;outPoint&#8217; is able to respond to
+<p class=MsoNormal>We can't be sure that 'outPoint' is able to respond to
 (#x,#y), so we will have to do a runtime message check to verify it.<span
 style="mso-spacerun: yes">&nbsp; </span>We can still be pessimistic by checking
-&#8216;output&#8217; before sending a message to it, but we can not do it statically.<span
+'output' before sending a message to it, but we can not do it statically.<span
 style="mso-spacerun: yes">&nbsp; </span></p>
 
 
@@ -2079,11 +2079,11 @@ yes">&nbsp;&nbsp;&nbsp; </span>class KeyedCollectionOfPoints {</p>
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
 yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>atKey_put(key, (#x,#y)
-value) {&#8230;}</p>
+value) {...}</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>(#x,#y) atKey(key) {&#8230;;
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>(#x,#y) atKey(key) {...;
 return value;}</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -2096,14 +2096,14 @@ yes">&nbsp;&nbsp;&nbsp; </span>}</p>
 
 
 <p class=MsoNormal>Well, that solves our problem but now we have added even
-more information (or &#8220;noise&#8221;) to our program.<span style="mso-spacerun:
+more information (or "noise") to our program.<span style="mso-spacerun:
 yes">&nbsp; </span>We had to create a whole new class to support being able to
-statically verify that a &#8220;collection of points&#8221; is really a
-&#8216;CollectionOfPoints&#8217;.<span style="mso-spacerun: yes">&nbsp; </span>Also note
-that a &#8216;KeyedCollectionOfPoints&#8217; can not be just a &#8220;wrapper&#8221; of a
-&#8216;KeyedCollection&#8217;: We can not use a KeyedCollection to implement our
+statically verify that a "collection of points" is really a
+'CollectionOfPoints'.<span style="mso-spacerun: yes">&nbsp; </span>Also note
+that a 'KeyedCollectionOfPoints' can not be just a "wrapper" of a
+'KeyedCollection': We can not use a KeyedCollection to implement our
 KeyedCollectionOfPoints because we would stilly have to do a runtime check to
-convert the &#8220;atKey&#8221; to an &#8220;(#x,#y) atKey&#8221;.<span style="mso-spacerun:
+convert the "atKey" to an "(#x,#y) atKey".<span style="mso-spacerun:
 yes">&nbsp; </span>We have to completely rewrite the KeyedCollectionOfPoints
 from scratch to have the new compile-time verifiable message-checks.<span
 style="mso-spacerun: yes">&nbsp; </span>So much for code reuse.</p>
@@ -2112,9 +2112,9 @@ style="mso-spacerun: yes">&nbsp; </span>So much for code reuse.</p>
 
 
 <p class=MsoNormal>A solution to all this extra effort is to have parameterized
-classes that &#8220;effectively&#8221; (or actually) code-generate classes that are
+classes that "effectively" (or actually) code-generate classes that are
 compile-time verifiable for a given set of message constraints.<span
-style="mso-spacerun: yes">&nbsp; </span>We can develop a &#8220;template&#8221; class:</p>
+style="mso-spacerun: yes">&nbsp; </span>We can develop a "template" class:</p>
 
 
 
@@ -2130,12 +2130,12 @@ yes">&nbsp;&nbsp;&nbsp; </span>class KeyedCollectionOf&lt;valueMessages&gt; {</p
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
 yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>atKey_put(key,
-&lt;valueMessages&gt; value) {&#8230;}</p>
+&lt;valueMessages&gt; value) {...}</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
 yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;valueMessages&gt;
-atKey(key) {&#8230;; return value;}</p>
+atKey(key) {...; return value;}</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -2157,7 +2157,7 @@ margin-right:1.0in'>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>(#x,#y) inPoint = &#8230;;</p>
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>(#x,#y) inPoint = ...;</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -2179,7 +2179,7 @@ namesToPoints.atKey(&quot;test&quot;);</p>
 
 
 
-<p class=MsoNormal>So now we at least don&#8217;t have to write a bunch of different
+<p class=MsoNormal>So now we at least don't have to write a bunch of different
 classes for every variation we need, we can let the compiler do it for us.<span
 style="mso-spacerun: yes">&nbsp; </span>And then the compiler can statically
 verify the messages.</p>
@@ -2205,17 +2205,17 @@ for the design similarity.</p>
 
 
 
-<p class=MsoNormal>The second remark is that Java doesn&#8217;t support parameterized
+<p class=MsoNormal>The second remark is that Java doesn't support parameterized
 classes and interferes with developing your own specialized versions of classes
 because of weak interaction between types and polymorphism.<span
 style="mso-spacerun: yes">&nbsp; </span>For example, even if you have your own
 KeyedCollectionOfPoints, you can not develop a subclass of Enumeration that
 will return a (#x,#y) point for #nextElement.<span style="mso-spacerun:
 yes">&nbsp; </span>Java does not support covariant return types so even if you
-defined a &#8216;PointEnumeration&#8217; it must either not inherit from &#8216;Enumeration&#8217; or
-it has to return the same &#8220;type&#8221; as Enumeration returns, which knows nothing
+defined a 'PointEnumeration' it must either not inherit from 'Enumeration' or
+it has to return the same "type" as Enumeration returns, which knows nothing
 about (#x,#y) of point.<span style="mso-spacerun: yes">&nbsp; </span>This will
-be discussed again in a later section possibly titled &#8220;EiffelJava&#8221;, but for now
+be discussed again in a later section possibly titled "EiffelJava", but for now
 we can say Java itself is incapable or poorly capable of making a program
 compile-time verifiable.</p>
 
@@ -2223,10 +2223,10 @@ compile-time verifiable.</p>
 
 
 <p class=MsoNormal><span style="mso-spacerun: yes">&nbsp;</span>The final
-remark is that all this static typing ignores &#8216;null&#8217; values, which would fail
+remark is that all this static typing ignores 'null' values, which would fail
 all the message-checks we have been applying and prevent the ability to
 statically type a program.<span style="mso-spacerun: yes">&nbsp; </span>To make
-that static typing work we will have to say what a &#8216;null&#8217; means and how it
+that static typing work we will have to say what a 'null' means and how it
 interacts with the message-checking or type system.<span style="mso-spacerun:
 yes">&nbsp; </span>This will be discussed in the next posting.</p>
 
@@ -2253,11 +2253,11 @@ yes">&nbsp; </span></p>
 <p class=MsoNormal>Optimistic messaging requires much less noise to accomplish
 the same, if successful, result.<span style="mso-spacerun: yes">&nbsp;
 </span>It is also far easier to change: if we decide to send a new message to a
-&#8216;point&#8217; we can just send the message and know (or hope) that the object will
+'point' we can just send the message and know (or hope) that the object will
 understand it.<span style="mso-spacerun: yes">&nbsp; </span>With pessimistic
 messaging we have to explicitly say what messages we require an object to
 understand. This caused us to put a lot more information into the program (much
-of it &#8220;obvious&#8221;) and means we have to update all this information if we decide to
+of it "obvious") and means we have to update all this information if we decide to
 send a new message to an object. (I will discuss alternative ways to declaring
 what new messages can be understood in the section on interfaces.)<span
 style="mso-spacerun: yes">&nbsp; </span>Overall, optimistic messaging is much
@@ -2272,7 +2272,7 @@ less painful and correct programs are still correct programs.</p>
 
 
 <p class=MsoNormal>Pessimistic messaging allows us to move message-checks
-earlier in a program&#8217;s execution and to consolidate multiple message-checks
+earlier in a program's execution and to consolidate multiple message-checks
 into a single check.<span style="mso-spacerun: yes">&nbsp; </span>This allows
 us to identify and respond to failed message-checks long before a program needs
 to rely on those message checks.<span style="mso-spacerun: yes">&nbsp;
@@ -2282,7 +2282,7 @@ style="mso-spacerun: yes">&nbsp; </span>If this were possible then we could be
 surer of what our program does before execution verification.<span
 style="mso-spacerun: yes">&nbsp; </span>We have made a good step forward if our
 programs frequently have mistakes of expecting an object to respond to a
-message that it doesn&#8217;t understand.<span style="mso-spacerun: yes">&nbsp;
+message that it doesn't understand.<span style="mso-spacerun: yes">&nbsp;
 </span></p>
 
 
@@ -2290,10 +2290,10 @@ message that it doesn&#8217;t understand.<span style="mso-spacerun: yes">&nbsp;
 
 <p class=MsoNormal><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
 </span>Unfortunately complete compile-time checking is rarely possible because
-of weak language support, &#8216;null&#8217;s, or program behavior more complex than the
+of weak language support, 'null's, or program behavior more complex than the
 capabilities of even a good language.<span style="mso-spacerun: yes">&nbsp;
 </span>Compile-time type checking also significantly reduces the reusability of
-classes: it requires generating new classes with all the proper &#8220;types&#8221; to be
+classes: it requires generating new classes with all the proper "types" to be
 used in a particular context.</p>
 
 
@@ -2332,7 +2332,7 @@ also generate the additional documentation that a pessimistic program can
 provide.<span style="mso-spacerun: yes">&nbsp; </span>See [Brach+G 93][8] for a
 starting reference point to these types of languages.<span style="mso-spacerun:
 yes">&nbsp; </span>For this document I will ignore inference capabilities since
-they are not available in Java, Smalltalk, and other &#8220;mainstream&#8221; OO languages.</p>
+they are not available in Java, Smalltalk, and other "mainstream" OO languages.</p>
 
 
 
@@ -2346,10 +2346,10 @@ they are not available in Java, Smalltalk, and other &#8220;mainstream&#8221; OO
 style="mso-spacerun: yes">&nbsp; </span>You can send a message to any object
 and if the object understands the message (it has implemented a matching
 method) it will respond.<span style="mso-spacerun: yes">&nbsp; </span>If not,
-the object would throw a &#8220;DoesNotUnderstandException&#8221; that the caller can catch
+the object would throw a "DoesNotUnderstandException" that the caller can catch
 and respond to.<span style="mso-spacerun: yes">&nbsp; </span>This is very clean
 and simple, relying on the same exception handling abilities in the rest of
-SmallJava.<span style="mso-spacerun: yes">&nbsp; </span>Optimistic messaging&#8217;s
+SmallJava.<span style="mso-spacerun: yes">&nbsp; </span>Optimistic messaging's
 problems are that a program can only be verified by running it and that there
 is less documentation of what is expected of a variable or parameter.</p>
 
@@ -2360,7 +2360,7 @@ is less documentation of what is expected of a variable or parameter.</p>
 support the ability to check whether an object understands a message before
 sending it to it?<span style="mso-spacerun: yes">&nbsp; </span>The answer would
 seem to be an emphatic yes.<span style="mso-spacerun: yes">&nbsp; </span>The
-only cost is the addition of the syntax &#8220;(#message,#message2,&#8230;)&#8221; that does a
+only cost is the addition of the syntax "(#message,#message2,...)" that does a
 message check or that requires the user of a variable or parameter to do a
 message check.<span style="mso-spacerun: yes">&nbsp; </span>This is useful in
 several ways:</p>
@@ -2393,9 +2393,9 @@ use).</p>
 
 
 
-<p class=MsoNormal>From Java and Smalltalk&#8217;s point of view this is
+<p class=MsoNormal>From Java and Smalltalk's point of view this is
 uncontroversial: this capability is in both languages.<span
-style="mso-spacerun: yes">&nbsp; </span>Java provides the &#8220;cast&#8221; operation and
+style="mso-spacerun: yes">&nbsp; </span>Java provides the "cast" operation and
 typed variables that we will discuss in future sections.<span
 style="mso-spacerun: yes">&nbsp; </span>Smalltalk provides the ability to ask
 an object whether it #respondsTo: a message.<span style="mso-spacerun:
@@ -2434,7 +2434,7 @@ other.</p>
 features that may make pessimistic message checking more useful and less
 painful.<span style="mso-spacerun: yes">&nbsp; </span>We will also be
 discussing aspects that make pessimistic message checking less useful (e.g. for
-&#8216;null&#8217;s).<span style="mso-spacerun: yes">&nbsp; </span>After dealing with these
+'null's).<span style="mso-spacerun: yes">&nbsp; </span>After dealing with these
 features and aspects we can revisit the question of whether pessimistic
 checking is useful enough to be required.<span style="mso-spacerun: yes">&nbsp;
 </span>For now, SmallJava_1 supports both.</p>
@@ -2457,7 +2457,7 @@ message-requirement invariant which uses the same syntax.</p>
 
 
 
-<p class=MsoNormal>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p>
+<p class=MsoNormal>---------------------------------------------------------------------</p>
 
 
 
@@ -2468,27 +2468,27 @@ transactions.</p>
 
 
 
-<p class=EndNote>[2] I use &#8220;#foo&#8221; to label a message and &#8220;Class#foo&#8221; for a
+<p class=EndNote>[2] I use "#foo" to label a message and "Class#foo" for a
 method in a particular class.<span style="mso-spacerun: yes">&nbsp; </span>The
-use of &#8216;#&#8217; is similar enough between both Smalltalk (where it indicates a
+use of '#' is similar enough between both Smalltalk (where it indicates a
 Symbol) and Java (where for Javadoc it indicates a method) to be the best choice.</p>
 
 
 
 
 <p class=EndNote>[3] Or you could view it that Object defines all methods with
-a default behavior of: &#8220;throw new DoesNotUnderstandException();&#8221;</p>
+a default behavior of: "throw new DoesNotUnderstandException();"</p>
 
 
 
 
 <p class=EndNote>[4] The database transaction terminology would be a
-pessimistic &#8220;lock&#8221; on &#8216;point&#8217;</p>
+pessimistic "lock" on 'point'</p>
 
 
 
 
-<p class=EndNote>[5] We might now want to call them &#8220;invariables&#8221;</p>
+<p class=EndNote>[5] We might now want to call them "invariables"</p>
 
 
 
@@ -2520,7 +2520,7 @@ yes">&nbsp;&nbsp; </span></p>
 <p class=MsoNormal>SmallJava started with only optimistic messaging.<span
 style="mso-spacerun: yes">&nbsp; </span>You could send a message to any object
 and if the object did not have a corresponding method, a
-&#8220;DoesNotUnderstandException&#8221; would be thrown.</p>
+"DoesNotUnderstandException" would be thrown.</p>
 
 
 
@@ -2556,7 +2556,7 @@ manage our pessimistic message-checks.<span style="mso-spacerun: yes">&nbsp;
 </span>Either the mechanism has to be more convenient or it has to have added
 benefits that make it more useful.<span style="mso-spacerun: yes">&nbsp;
 </span>This chapter discusses making pessimistic behavior easier and more
-useful by using messageGroups, a preliminary form of &#8220;Type&#8221;.<span
+useful by using messageGroups, a preliminary form of "Type".<span
 style="mso-spacerun: yes">&nbsp; </span>If the pessimism becomes easier we may
 make it the required behavior for SmallJava_2.<span style="mso-spacerun:
 yes">&nbsp; </span>In any case we will have something close enough to Java like
@@ -2589,7 +2589,7 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>class PointClass {</p>
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
 yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>// &#8230;</p>
+</span>// ...</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -2682,7 +2682,7 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 <p class=MsoNormal>It already has twelve individual message references combined
 into five pessimistic invariants.<span style="mso-spacerun: yes">&nbsp;
-</span>What&#8217;s worse is that changes in PointClass#vectorFrom could cause all
+</span>What's worse is that changes in PointClass#vectorFrom could cause all
 the other invariants to have to change.<span style="mso-spacerun: yes">&nbsp;
 </span>Assuming a point could have a name, then changing #vectorFrom to:</p>
 
@@ -2727,7 +2727,7 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <p class=MsoNormal>If we could define a larger unit of granularity that
 contains multiple messages, a messageGroup[2], we might have an easier
-time.<span style="mso-spacerun: yes">&nbsp; </span>Let&#8217;s try the following
+time.<span style="mso-spacerun: yes">&nbsp; </span>Let's try the following
 simple syntax:</p>
 
 
@@ -2751,7 +2751,7 @@ yes">&nbsp;&nbsp;&nbsp; </span>messageGroup #Point = (#Xy, #vectorFrom);</p>
 
 
 <p class=MsoNormal>where mentioning a messageGroup is just like mentioning the
-messageGroup&#8217;s messages explicitly.<span style="mso-spacerun: yes">&nbsp;
+messageGroup's messages explicitly.<span style="mso-spacerun: yes">&nbsp;
 </span>Message groups are compared by value: two message groups are equal if
 they have the same messages in them after expansion.<span style="mso-spacerun:
 yes">&nbsp; </span>Our previous pessimistic message checks and invariants
@@ -2775,7 +2775,7 @@ yes">&nbsp;&nbsp;&nbsp; </span>class PointClass {</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// &#8230;</p>
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// ...</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -2793,7 +2793,7 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// &#8230;</p>
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// ...</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -2879,7 +2879,7 @@ margin-right:1.0in'>
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
 yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>vectorFrom((#Xy,#name)
-point) //&#8230;</p>
+point) //...</p>
 
 </div>
 
@@ -2917,7 +2917,7 @@ style="mso-spacerun: yes">&nbsp; </span></p>
 
 
 
-<p class=MsoNormal>If we don&#8217;t modify #Xy we can still modify #Point:</p>
+<p class=MsoNormal>If we don't modify #Xy we can still modify #Point:</p>
 
 
 
@@ -2950,7 +2950,7 @@ margin-right:1.0in'>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp; </span>vectorFrom((#Xy,#name) point) //&#8230;</p>
+yes">&nbsp;&nbsp;&nbsp; </span>vectorFrom((#Xy,#name) point) //...</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -2959,7 +2959,7 @@ yes">&nbsp;&nbsp;&nbsp; </span>class Line {</p>
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
 yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>LineClass((#Point)
-pointA, (#Xy,#name) pointB) //&#8230;</p>
+pointA, (#Xy,#name) pointB) //...</p>
 
 </div>
 
@@ -2968,7 +2968,7 @@ pointA, (#Xy,#name) pointB) //&#8230;</p>
 
 <p class=MsoNormal>Now we only have to change three invariants instead of
 five.<span style="mso-spacerun: yes">&nbsp; </span>But why could we modify
-#Point if we couldn&#8217;t modify #Xy?<span style="mso-spacerun: yes">&nbsp;
+#Point if we couldn't modify #Xy?<span style="mso-spacerun: yes">&nbsp;
 </span>Just because it had a different name?<span style="mso-spacerun:
 yes">&nbsp; </span>Well, yes.</p>
 
@@ -2980,18 +2980,18 @@ yes">&nbsp; </span>Well, yes.</p>
 
 
 
-<p class=MsoNormal>The messageGroup named #Point represents a &#8220;Type&#8221;, a
+<p class=MsoNormal>The messageGroup named #Point represents a "Type", a
 meaningful grouping of objects that provide the same interface.<span
 style="mso-spacerun: yes">&nbsp; </span>We can include the ability to respond
 to #name as part of the capabilities of a #Point.<span style="mso-spacerun:
 yes">&nbsp; </span>For the messageGroup named #Xy we were just providing a
-&#8220;shortcut&#8221; name for several messages without any fuller or independent logical
+"shortcut" name for several messages without any fuller or independent logical
 meaning.</p>
 
 
 
 
-<p class=MsoNormal>So why don&#8217;t we just throw away #Xy and use just
+<p class=MsoNormal>So why don't we just throw away #Xy and use just
 #Point?<span style="mso-spacerun: yes">&nbsp; </span>This would give us:</p>
 
 
@@ -3015,7 +3015,7 @@ yes">&nbsp;&nbsp;&nbsp; </span>class PointClass {</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// &#8230;</p>
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// ...</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -3033,7 +3033,7 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// &#8230;</p>
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// ...</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -3152,7 +3152,7 @@ yes">&nbsp;&nbsp;&nbsp; </span>messageGroup #Point = (#x, #y , #name,
 
 
 
-<p class=MsoNormal>and we don&#8217;t have to worry about changing anything
+<p class=MsoNormal>and we don't have to worry about changing anything
 else.<span style="mso-spacerun: yes">&nbsp; </span>Life is easy.</p>
 
 
@@ -3183,10 +3183,10 @@ were planning on using only PointClasses anyway, and they support all of the
 
 
 
-<p class=MsoNormal>Unfortunately that is a sign of being &#8220;near-sighted&#8221; in both
+<p class=MsoNormal>Unfortunately that is a sign of being "near-sighted" in both
 time and development scope.<span style="mso-spacerun: yes">&nbsp; </span>As the
 system grows I could want to use an independently developed library of classes
-that includes a &#8216;Point&#8217; which does not have a method #name.<span
+that includes a 'Point' which does not have a method #name.<span
 style="mso-spacerun: yes">&nbsp; </span>But I can not.<span
 style="mso-spacerun: yes">&nbsp; </span>Lines require that a Point understand
 #name even when it never sends a #name message to them.</p>
@@ -3204,7 +3204,7 @@ that respond to just (#+, #-, #*).</p>
 
 
 <p class=MsoNormal>There are words for this type of program: inflexible,
-limited, not reusable, and &#8220;bad&#8221;.</p>
+limited, not reusable, and "bad".</p>
 
 
 
@@ -3231,7 +3231,7 @@ want as little of the program to change as possible.</p>
 
 
 <p class=MsoNormal>There are words for this type of program too: stable,
-maintainable, and &#8220;good&#8221;.</p>
+maintainable, and "good".</p>
 
 
 
@@ -3241,7 +3241,7 @@ maintainable, and &#8220;good&#8221;.</p>
 
 
 
-<p class=MsoNormal>So how do we get the &#8220;good&#8221; with as little of the &#8220;bad&#8221; as
+<p class=MsoNormal>So how do we get the "good" with as little of the "bad" as
 possible?<span style="mso-spacerun: yes">&nbsp; </span>The main way is to think
 harder about our object type models.<span style="mso-spacerun: yes">&nbsp;
 </span>Do we really want all #Points to respond to #name?<span
@@ -3273,7 +3273,7 @@ yes">&nbsp;&nbsp;&nbsp; </span>messageGroup #Xy = (#x, #y);</p>
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
 yes">&nbsp;&nbsp;&nbsp; </span>messageGroup #Point = (#Xy , #vectorFrom(#Xy),
-&#8230;other stuff&#8230;);</p>
+...other stuff...);</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -3297,7 +3297,7 @@ yes">&nbsp;&nbsp;&nbsp; </span>class PointClass {</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// &#8230;</p>
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// ...</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -3315,7 +3315,7 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// &#8230;</p>
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>// ...</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -3387,8 +3387,8 @@ yes">&nbsp;&nbsp;&nbsp; </span>}</p>
 
 
 <p class=MsoNormal>If we later decide to use #names with our lines then we can
-either change the invariant on pointA (to either &#8220;(#Point,#Named)&#8221;or
-&#8221;(#NamedPoint)&#8221;) or we can decide that we really have a new #NamedLine which
+either change the invariant on pointA (to either "(#Point,#Named)"or
+"(#NamedPoint)") or we can decide that we really have a new #NamedLine which
 would have a new NamedLineClass to implement it.<span style="mso-spacerun:
 yes">&nbsp; </span>We have reduced the excessive restrictions in exchange for
 what looks like more work (more Types) but should be more stable and less work
@@ -3522,7 +3522,7 @@ control of the developer.</p>
 
 <p class=MsoNormal>Should we REQUIRE pessimistic behavior now that we have
 better language support for it?<span style="mso-spacerun: yes">&nbsp; </span>I
-will say &#8220;no&#8221; to defer until covering &#8220;null&#8221; values, but we are close to making
+will say "no" to defer until covering "null" values, but we are close to making
 that decision.<span style="mso-spacerun: yes">&nbsp; </span>For the moment I
 will compare optimistic and pessimistic behavior in SmallJava_2 and discuss
 choosing between them.</p>
@@ -3584,7 +3584,7 @@ yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>x() {return x;}</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>//&#8230;</p>
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>//...</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -3698,7 +3698,7 @@ yes">&nbsp;&nbsp;&nbsp; </span>messageGroup #Point =
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp; </span>messageGroup #Number = (#^,#-,&#8230;);</p>
+yes">&nbsp;&nbsp;&nbsp; </span>messageGroup #Number = (#^,#-,...);</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -3742,7 +3742,7 @@ x;}</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
-yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>//&#8230;</p>
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>//...</p>
 
 <p class=CodeExample style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.75in;margin-bottom:.0001pt'><span style="mso-spacerun:
@@ -3862,7 +3862,7 @@ optimistic version will throw an exception at run time.</p>
 
 
 
-<p class=MsoNormal>The optimistic program is less &#8220;noisy&#8221; and is easier to
+<p class=MsoNormal>The optimistic program is less "noisy" and is easier to
 change.<span style="mso-spacerun: yes">&nbsp; </span>We can simply add a new
 method to PointClass and use it in LineClass.<span style="mso-spacerun:
 yes">&nbsp; </span>But we can also accidentally send a new message without
@@ -3902,7 +3902,7 @@ yes">&nbsp; </span></p>
 
 <p class=MsoNormal>The pessimistic program is less flexible.<span
 style="mso-spacerun: yes">&nbsp; </span>We can only use #Points in our
-LineClass.<span style="mso-spacerun: yes">&nbsp; </span>We can&#8217;t use another
+LineClass.<span style="mso-spacerun: yes">&nbsp; </span>We can't use another
 type of point that only understand #x and #y because #Point requires #r and #theta
 too (even though LineClass may never need #r and #theta).<span
 style="mso-spacerun: yes">&nbsp; </span>You should also note the comment in the
@@ -3917,17 +3917,17 @@ next section.</p>
 
 
 <p class=MsoNormal>Unfortunately the type behavior in SmallJava_2 is more
-&#8220;ideal&#8221; and flexible than what most statically typed languages support,
+"ideal" and flexible than what most statically typed languages support,
 including Java.<span style="mso-spacerun: yes">&nbsp; </span>For example,
 instead of message based verification with types as message aggregates, most
 statically typed languages use named-type based verification.<span
 style="mso-spacerun: yes">&nbsp; </span>For these languages an object can only
-pass through a type-check if its class specifically &#8220;implements&#8221; the named
+pass through a type-check if its class specifically "implements" the named
 type.<span style="mso-spacerun: yes">&nbsp; </span>You can not use a third
 party PointClass that supports all the #Point messages with LineClass unless it
 actually specifically mentions our #Point type.<span style="mso-spacerun:
 yes">&nbsp; </span>This is not too likely.<span style="mso-spacerun:
-yes">&nbsp; </span>This language &#8220;feature&#8221; severely punishes reusability for
+yes">&nbsp; </span>This language "feature" severely punishes reusability for
 pessimistic typing.<span style="mso-spacerun: yes">&nbsp; </span>This I will
 address in a future chapter when we start bringing some of the idealizations of
 SmallJava down to the realities of Java.</p>
@@ -3959,7 +3959,7 @@ them will probably feel very different.<span style="mso-spacerun: yes">&nbsp;
 </span>Besides language features this will be because of the development
 environments and compiling technology associated with each.<span
 style="mso-spacerun: yes">&nbsp; </span>Generally optimistic languages have
-much more interactive development environments, so programs feel &#8220;directly manipulated&#8221;
+much more interactive development environments, so programs feel "directly manipulated"
 and grown.<span style="mso-spacerun: yes">&nbsp; </span>Generally pessimistic
 language development environments have a specify, implement, and verify
 process.<span style="mso-spacerun: yes">&nbsp; </span></p>
@@ -4010,17 +4010,17 @@ member).</p>
 
 
 
-<p class=MsoNormal>But no choosing yet, we must first cover &#8220;nothing&#8221;.</p>
+<p class=MsoNormal>But no choosing yet, we must first cover "nothing".</p>
 
 
 
 
-<p class=MsoNormal>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p>
+<p class=MsoNormal>---------------------------------------------------------------------</p>
 
 
 
 
-<p class=MsoNormal>[1] Note the change to suffixing with &#8220;Class&#8221;, this is to
+<p class=MsoNormal>[1] Note the change to suffixing with "Class", this is to
 make discussions about types clearer later on.<span style="mso-spacerun:
 yes">&nbsp; </span>It also happens to be my naming convention for Java
 code.<span style="mso-spacerun: yes">&nbsp; </span>See [Fussell-1] </p>
@@ -4073,8 +4073,8 @@ style='mso-bookmark:_Toc384923228'>References</span></a></h1>
   <td width=373 valign=top style='width:372.6pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:
   0in;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-30.6pt'>Gilad
-  Bracha and David Griswold. &#8220;Stongtalk: Typechecking Smalltalk in a Production
-  Environment&#8221; in <i style='mso-bidi-font-style:normal'>OOPSLA 1993 Conference
+  Bracha and David Griswold. "Stongtalk: Typechecking Smalltalk in a Production
+  Environment" in <i style='mso-bidi-font-style:normal'>OOPSLA 1993 Conference
   Proceedings</i>.<span style="mso-spacerun: yes">&nbsp; </span>Addison-Wesley,
   Reading, MA, 1993.</p>
   </td>
@@ -4101,9 +4101,9 @@ style='mso-bookmark:_Toc384923228'>References</span></a></h1>
   <td width=373 valign=top style='width:372.6pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:
   0in;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-30.6pt'>Mark L.
-  Fussell. &#8220;Java Development Standards&#8221; <span class=Html1><span
+  Fussell. "Java Development Standards" <span class=Html1><span
   style='display:none;mso-hide:all'>&lt;a
-  href=&#8221;http://www.chimu.com/publications/javaStandards/&#8221;&gt;</span>http://www.chimu.com/publications/javaStandards/<span
+  href="http://www.chimu.com/publications/javaStandards/"&gt;</span>http://www.chimu.com/publications/javaStandards/<span
   style='display:none;mso-hide:all'>&lt;/a&gt;</span></span></p>
   </td>
  </tr>
@@ -4115,10 +4115,10 @@ style='mso-bookmark:_Toc384923228'>References</span></a></h1>
   <td width=373 valign=top style='width:372.6pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:
   0in;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-30.6pt'>Mark L.
-  Fussell. &#8220;Java-Smalltalk Syntax comparison&#8221; <span class=Html1><span
-  style='display:none;mso-hide:all'>&lt;a href=&#8221;</span></span><span
+  Fussell. "Java-Smalltalk Syntax comparison" <span class=Html1><span
+  style='display:none;mso-hide:all'>&lt;a href="</span></span><span
   style='display:none;mso-hide:all'>http://www.chimu.com/publications/javaSmalltalkSyntax.html/
-  <span class=Html1>&#8220;&gt;</span></span>http://www.chimu.com/publications/javaSmalltalkSyntax.html<span
+  <span class=Html1>"&gt;</span></span>http://www.chimu.com/publications/javaSmalltalkSyntax.html<span
   class=Html1>/<span style='display:none;mso-hide:all'>&lt;/a&gt;</span></span>
   </p>
   </td>
